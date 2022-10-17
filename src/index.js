@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
-import EggBuilding from './pages/egg-building'
+import DuckPage from './pages/ducks-in-half-circle'
 
 ReactDOM.render(
   <React.StrictMode>
-    <EggBuilding />
+    <DuckPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
